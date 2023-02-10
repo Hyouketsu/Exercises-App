@@ -1,0 +1,176 @@
+/*############################################################################################################
+/*######## I THINK MANY OF THE REQUIREMENTS MADE THE WEBSITE UGLIER SO I JUST LEFT THEM AT MINIMUM/0 #########
+/*############################################################################################################
+/*   ----- Imports  -----  */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+:root {
+  --custom-color-name:red;
+  --custom-embellishment-name:red;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {       /* Can alternatively define in html {} or :root {} */
+background: linear-gradient(345deg, #5198FB 0%, #9CBEDC 46%);
+font-family:Arial, Helvetica, sans-serif;
+padding: 10px 15px;
+margin:2px 0 20px 10px;
+}
+
+
+/*############################################################################################################
+/*######## I THINK MANY OF THE REQUIREMENTS MADE THE WEBSITE UGLIER SO I JUST LEFT THEM AT MINIMUM/0 #########
+/*############################################################################################################
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    width:800px; 
+    margin:auto;
+    color:black;
+    margin-bottom: 10px;
+    background-color: #5198fb00;
+}
+nav a{
+  color:rgb(0, 46, 145);
+  vertical-align: auto;
+  margin: 20px;
+  padding:10px;
+  font-size: 25px;
+  font-weight: normal;
+  text-decoration: none
+}
+nav a:hover {
+  background-color: #5198fb00;
+  font-weight: bold;
+  text-decoration: underline dotted red;
+  color:rgb(224, 114, 24);
+
+}
+
+
+/*  ----- Page layout blocks -----  */
+header {  
+  color:rgb(8, 1, 119);
+  background-color: #5198fb00;
+  font-size:27px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: underline rgb(43, 0, 236) ;
+  margin: auto;
+  padding: auto;
+}
+main {
+  margin: 50px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  background-color:rgba(115, 106, 243, 0.308);
+  color: rgba(0, 0, 0, 0.986);
+  text-align: center;
+  border: 4px solid rgb(0, 0, 0);
+  resize: horizontal;
+  width:800px; 
+}
+
+footer {
+  background-color:rgba(161, 247, 64, 0.089);
+  color:rgba(0, 2, 134, 0.658);
+  margin:20px;
+  padding:20px;
+  text-decoration: underline rgba(183, 0, 255, 0.219);
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*  ----- Table ----- */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  font-size:25px;
+}
+caption {
+    border:3px solid rgb(0, 0, 0);
+}
+thead {
+  height:40px;
+
+}
+tbody {
+  text-align:center;
+}
+tr {
+  border:1px solid rgb(95, 95, 95);
+  padding: 10px;
+}
+th[scope="top"] {
+    color: rgba(0, 0, 0, 0.918);
+    background-color: #cedae49f;
+    border: 3px solid rgb(0, 0, 0);
+}
+th {
+  border:1px solid rgb(95, 95, 95);
+  padding: 10px;
+  color: rgb(24, 24, 24);
+}
+td {
+  border:1px solid rgb(66, 66, 66);
+  padding: 5px;
+}
+td:nth-child(6){
+  color: rgb(223, 33, 0);
+
+}
+td:nth-child(7){
+  color: rgb(226, 124, 8);
+
+}
+
+
+/*  ----- Form ----- */
+form {
+    float: center;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+  button {
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:27px;
+    font-weight: normal;
+    background-color: #f59608;
+    border: solid black;
+    border-radius: 4px;
+  }
+  input {
+        padding: 10px 15px;
+        margin:2px 0 20px 10px;
+        border: 4px solid rgb(110, 110, 110);
+        border-radius: 4px;
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        
+  }
+
+  select {
+    padding: 10px 15px;
+    margin:2px 0 20px 10px;
+    border: 4px solid rgb(110, 110, 110);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }

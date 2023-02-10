@@ -1,0 +1,1 @@
+Used the MERN stack to write a single page application that tracks the exercises completed by the user. The front end of the app uses Node and React and global design features. The backend uses REST, MongoDB, Epress and Node. 
